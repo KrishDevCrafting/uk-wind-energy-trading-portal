@@ -1,0 +1,18 @@
+# Python & Virtual Env
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+# Node & Frontend
+node_modules/
+dist/
+.DS_Store
+
+# Logs & Temp
+*.log
+npm-debug.log*
+yarn-debug.log*
