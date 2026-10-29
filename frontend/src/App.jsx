@@ -25,7 +25,9 @@ import {
   CheckCircle2,
 } from "lucide-react";
 
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL ||
+  "https://gridbricks-energy-backend.onrender.com";
 
 export default function App() {
   const [selectedDate, setSelectedDate] = useState("2025-01-15");
